@@ -2,8 +2,8 @@ add_executable(intro main.cpp)
 
 target_link_libraries(
   intro
-  PRIVATE myproject::myproject_options
-          myproject::myproject_warnings)
+  PRIVATE ARM32Emulator::ARM32Emulator_options
+          ARM32Emulator::ARM32Emulator_warnings)
 
 target_link_system_libraries(
   intro

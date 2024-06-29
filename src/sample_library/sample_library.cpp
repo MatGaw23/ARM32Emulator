@@ -1,4 +1,4 @@
-#include <myproject/sample_library.hpp>
+#include <ARM32Emulator/sample_library.hpp>
 
 int factorial(int input) noexcept
 {
